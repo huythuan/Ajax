@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+li a {
+	text-decoration: none;
+	font-weight:bold;
+}
+li a:hover{
+	text-decoration:underline;
+}
+h2, ul {
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+li {
+	list-style-type:none;
+}
+#previewWin {
+	background-color:#FF9;
+	width:150px;
+	height:200px;
+	font:.6em arial, helvetica, sans-serif;
+	padding:5px;
+	position:absolute;
+	visibility:hidden;
+	border:1px #CC0 solid;
+	overflow:hidden;
+}
+#previewWin h1, #previewWin h2 {
+	font-size:1.0em;
+}
